@@ -39,8 +39,9 @@ form.addEventListener("submit", function(e){
     const result = document.getElementById('result');
     result.innerHTML = `
     <br>
-    <p><strong>Your BMI is:</strong> ${bmi}</p>
-    <p><strong>Category:</strong> ${bmiCategory}</p>
+    <h3><strong>Your BMI is:</strong> ${bmi}</h3>
+    <h3><strong>Category:</strong> ${bmiCategory}</h3>
+    <button onclick="location.reload()">Reload</button>
     <br>
     `;
 })
